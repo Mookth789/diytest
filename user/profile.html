@@ -746,39 +746,7 @@
 			</div>
 		</div>
 	</body>
-	<script type="module">
-		const app = Vue.createApp({
-			data() {
-				return {};
-			},
-			created() {
-				this.init();
-			},
-			methods: {
-				async init() {},
-				scrolltoupperFlex57(evt) {},
-				scrolltolowerFlex57(evt) {},
-				scrolltoupperFlex64(evt) {},
-				scrolltolowerFlex64(evt) {}
-			}
-		});
-		app.use(vant);
-		app.use(DiygwLib);
-		app.config.globalProperties.$tools = new Tools();
-		app.config.globalProperties.$http = httpService;
-		app.config.globalProperties.$session = Session;
-		app.mixin({
-			methods: {
-				Validate,
-				setData,
-				navigateTo,
-				showModal,
-				showToast,
-				uploadImage
-			}
-		});
-		app.mount('#app');
-	</script>
+
 	<style>
 		.flex9-clz {
 			flex-shrink: 0;
